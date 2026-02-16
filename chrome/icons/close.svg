@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg413"
+   width="32"
+   height="32"
+   viewBox="0 0 32 31.999999"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs417" />
+  <!-- Outer box -->
+  <rect 
+     style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.0078135"
+     id="rect439"
+     width="32"
+     height="32"
+     x="0"
+     y="0"
+     ry="4.3410335" />
+  <!-- Red square -->   
+  <rect
+     style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0.00811402"
+     id="rect548"
+     width="27"
+     height="27"
+     x="2.5"
+     y="2.5"
+     ry="3.8831654" />
+  <!-- Cross -->   
+  <path
+     id="rect602-3"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.00834209"
+     d="m 9.5849606,5.8359377 -3.3281252,3.6015625 6.1347666,6.4472648 -6.4492197,6.341797 3.6425783,3.744141 6.3203134,-6.394531 6.267578,6.58789 3.802735,-3.582031 -6.488282,-6.628906 6.570313,-6.6484373 -3.65625,-3.2675782 -6.429688,6.3242185 z" />
+</svg>

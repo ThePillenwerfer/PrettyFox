@@ -1,0 +1,82 @@
+/* Get rid of tab audio icon */
+  .tab-audio-button {  
+    color: transparent !important;
+    width: 1.5px !important;
+  }
+
+/* Get rid of Picture-in-Picture icon in URL bar */
+  #picture-in-picture-button-icon,
+
+/* Get rid of hamburger menu */
+  #PanelUI-menu-button,
+
+/* Get rid of crap at botton of Bookmark folders */
+  menuitem[label="Open All in Tabs"],
+  menuseparator.bookmarks-actions-menuseparator,
+
+/* Get rid of junk on right-click Bookmark */
+  #placesContext_cut,
+  #placesContext_copy,
+  #placesContext_paste_group,
+  #placesContext_paste,
+  #placesContext_pasteSeparator,
+  #placesContext_editSeparator,
+
+/* Get rid of crap on right-click Tab Bar*/
+  #toolbar-context-openANewTab,
+  menuitem[label="New Tab"] + menuseparator,
+  #toolbar-context-reloadSelectedTab,
+  #toolbar-context-bookmarkSelectedTab,
+  #toolbar-context-bookmarkSelectedTabs,
+  #toolbar-context-selectAllTabs,
+  menuitem[label="Reopen Closed Tab"] + menuseparator,
+  #toolbar-context-toggle-vertical-tabs,
+
+
+/* Get rid of crap on right-click Tab */
+  #context_openANewTab,
+  #context_moveTabToNewGroup,
+  menuitem[label="Separate Split View"] + menuseparator,
+  #context_reloadTab,
+  #context_toggleMuteTab,
+  #context_pinTab,
+  #context_unloadTab,
+  #context_duplicateTab,
+  menuitem[label="Duplicate Tabs"] + menuseparator,  
+  #context_bookmarkTab,
+  #context_moveTabOptions,
+  #context_sendTabToDevice,
+  #context_selectAllTabs,
+  menuitem[label="Select All Tabs"] + menuseparator,
+  #context_closeTab,
+  #context_closeDuplicateTabs,
+
+/* Get rid of crap on right-click web-page */
+  #context-sendimage,
+  #context-sendpagetodevice,
+  #context-selectall,
+  #context-viewsource,
+  #context-sep-screenshots,
+
+/* Get rid of crap on right-click Link */
+  #context-previewlink,
+  #context-openlinkinusercontext-menu,
+  #context-openlink,
+  #context-sep-open,
+  #context-bookmarklink,
+  #context-sep-selectall,
+  #context-stripOnShareLink,
+  #context-sep-sendlinktodevice,
+  #context-sendlinktodevice,
+  #context-viewpartialsource-selection,
+  #inspect-separator,
+  #context-inspect,
+  #context-inspect-a11y,
+  #frame-sep,
+  #contentAreaContextMenu > menuseparator:nth-child(92) /*This is a Separator*/
+    {display: none !important;}
+
+/* Now made removeable anyway
+  #unified-extensions-button,
+  .tabs-alltabs-button,
+*/

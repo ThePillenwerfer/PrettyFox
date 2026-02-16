@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<svg
+   viewBox="0 0 16 16"
+   width="16"
+   height="16"
+   fill="context-fill"
+   fill-opacity="context-fill-opacity"
+   version="1.1"
+   id="svg4"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient821">
+      <stop
+         style="stop-color:#a1e4fc;stop-opacity:1;"
+         offset="0"
+         id="stop817" />
+      <stop
+         style="stop-color:#a1e4fc;stop-opacity:0;"
+         offset="1"
+         id="stop819" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient821"
+       id="radialGradient823"
+       cx="6.488236"
+       cy="6.5642171"
+       fx="6.488236"
+       fy="6.5642171"
+       r="4.2828712"
+       gradientTransform="matrix(1.221372,0.72401507,-0.89541155,1.4404461,4.2787236,-7.7376444)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     d="m 10.375018,11.380248 4.260997,4.292871 a 0.68707887,0.69239867 0 0 0 0.978534,-0.0012 0.69261982,0.69798252 0 0 0 -0.0012,-0.987226 L 11.36565,10.405306 11.37225,9.928444 A 6.0950544,6.1422462 0 1 0 0.30266378,6.3849263 6.0950544,6.1422462 0 0 0 6.3977182,12.527172 c 1.31764,0 2.5355427,-0.424373 3.5318071,-1.141341 z M 6.3977182,11.131207 c -2.5964932,0 -4.7098148,-2.1296838 -4.7098148,-4.7462807 0,-2.6165969 2.1133216,-4.7462811 4.7098148,-4.7462811 2.5964932,0 4.7098148,2.1296842 4.7098148,4.7462811 0,2.6165969 -2.1133216,4.7462807 -4.7098148,4.7462807 z"
+     id="path2"
+     style="fill:#552200;stroke-width:1.11248" />
+  <ellipse
+     style="opacity:1;fill:url(#radialGradient823);fill-opacity:1;fill-rule:evenodd;stroke-width:0.00109502"
+     id="path443"
+     ry="4.751636"
+     rx="4.7458482"
+     cy="6.4153371"
+     cx="6.3255959" />
+</svg>

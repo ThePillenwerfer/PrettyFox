@@ -1,0 +1,46 @@
+/* Change the logo on the New Tab pages */
+@-moz-document url(about:newtab), url(about:home) { 
+  .logo {
+    background-size: 92px !important;
+    height: 92px !important;
+    width: 92px !important;
+    background-image: url("icons/firefox.png") !important;
+  }
+  .wordmark {
+    background-size: 172px !important;
+    height: 90px !important;
+    width: 174px !important;
+    margin-inline-start: 25px !important;
+  }  
+}
+
+/* Change Icon and Wordmark on Private Window Home Page */
+@-moz-document url(about:privatebrowsing){
+  body {
+    background-color: #4E268E;
+  }  
+  .logo-and-wordmark {
+    margin: -140px 0 50px;
+  }
+  .logo {
+    background-size: 82px !important;
+    background-image: url("icons/firefox.png") !important;
+  }
+  .wordmark {
+    background-size: 162px !important;
+    background-image: url("icons/private-text.png") !important;
+  }
+  .info-border {
+    display: none;
+  }
+  .info {
+      display:none;
+  }
+}
+
+/* Change icon on about:config page */
+@-moz-document url(about:config){
+  .config-background {
+    background: url("icons/dragon.png") no-repeat !important;
+  }
+}

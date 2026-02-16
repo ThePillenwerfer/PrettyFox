@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<svg
+   viewBox="0 0 12 15.978968"
+   width="12"
+   height="15.978968"
+   fill="context-fill"
+   fill-opacity="context-fill-opacity"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <!-- Body -->   
+  <path
+     style="fill:#b5a642;fill-opacity:1"
+     d="m 10,6.9789678 c -7.9772517,0.061685 -0.033174,0.047234 -8,0 -1.1045695,0 -2,0.8954305 -2,2 v 5.0000002 c 0,1.104569 0.8954305,2 2,2 h 8 c 1.104569,0 2,-0.895431 2,-2 V 8.9789678 c 0,-1.1045695 -0.895431,-2 -2,-2 z"
+     id="path2" />
+  <!-- Shackle -->   
+  <path
+     style="fill:#677a8b;fill-opacity:1"
+     d="M 10.039067,7 V 4 c 0,-2.206 -1.794,-4 -3.9999996,-4 -2.206,0 -4,1.794 -4,4 V 7 C 1.1426809,7.016543 10.048075,7.015348 10.039067,7 Z M 3.2890674,4 c 0,-1.517 1.233,-2.75 2.75,-2.75 1.517,0 2.7499996,1.233 2.7499996,2.75 l 0.0292,2.9815035 -5.5291946,0.018497 z"
+     id="path2-3" />
+</svg>

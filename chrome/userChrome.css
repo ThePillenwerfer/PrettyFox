@@ -1,0 +1,39 @@
+@import url("user-declutter.css");
+@import url("user-icons.css");
+
+/* Increase font size and make Tabs and other buttons less rounded */
+:root {
+  font-size: 13pt !important;
+  --border-radius-medium: 2px !important; 
+} 
+
+/* Reduce space between entries on pop-up menus */ 
+menupopup :is(menu, menuitem), .subviewbutton {
+  padding: 2px !important;
+  font-size: 12pt !important;
+}
+menupopup, panel {
+  --panel-padding-block: 4px 15px !important;
+}
+
+/* Move Find bar to top of screen */
+.browserContainer > findbar {
+  order: -1 !important;
+  border-top: none !important; 
+}
+
+/* Change top of Private windows to purple */
+:root {
+  &[privatebrowsingmode="temporary"] {
+    --lwt-accent-color: #55367C !important; /* Tab Bar background */
+    --lwt-text-color: #ffffff !important; /* Stuff at right end of Tab Bar */
+    --toolbar-bgcolor: #714FA1 !important;  /* URL and Bookmarks Bars */
+    --toolbar-field-background-color: #ffffff !important; /*URL box background */
+    --toolbar-field-focus-border-color: #9A65E4 !important; /* Empty URL box border */
+    --toolbar-color: #ffffff !important; /* Bookmark text */
+    --toolbarbutton-icon-fill: #ffffff !important; /* Icons on URL and Bookmarks Bars */
+    --chrome-content-separator-color: #55367C !important; /* Line under Bookmarks Bar */
+  }
+}
+
+

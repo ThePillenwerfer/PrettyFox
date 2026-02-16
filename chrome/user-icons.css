@@ -1,0 +1,186 @@
+/* Change icon on new tabs */
+.tab-icon-image[src="chrome://branding/content/icon32.png"] { 
+  content: url("icons/firefox.png") !important; 
+  transform: scale(1.2) !important;
+  padding: 1px 2px 0 !important;
+}
+
+/* Change logo in About Mozilla Firefox window */
+@-moz-document url("chrome://browser/content/aboutDialog.xhtml") {
+  #leftBox {
+    background-image: url("icons/firefox.png") !important; 
+  }
+}  
+
+/* Change logo in URL bar for about:config &c */
+#identity-box[pageproxystate="valid"].chromeUI #identity-icon {
+  list-style-image: url("icons/firefox.png") !important;
+  transform: scale(1.2) !important;
+  margin: 1px 3px 0 0 !important;
+}
+
+/* Keep History icon in the centre of a square box */
+#history-panelmenu {
+  padding: 0 6px 0 8px !important;
+}
+
+/* Make Close Tab button bigger and red */
+.tab-close-button {
+  width: 19px !important;
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 0 0 3px !important; /* margin-left doesn't work properly */
+  fill: red !important;
+}
+
+/* Change window control icons */
+.titlebar-close {
+  scale: 1.4;
+    > .toolbarbutton-icon {
+    background-image: url("icons/close.svg") !important;
+  }  
+}
+.titlebar-max {
+  padding-top: 8px !important;  
+  > .toolbarbutton-icon {
+    background-image: url("icons/maximise.svg") !important;
+  }
+}
+.titlebar-restore {
+  padding-top: 4px !important;
+  scale: 1.2;
+  > .toolbarbutton-icon {
+    background-image: url("icons/restore.svg") !important;
+  }
+}  
+.titlebar-min {
+  scale: 0.8;
+  padding-top: 14px !important;
+  > .toolbarbutton-icon {
+    background-image: url("icons/minimise.svg") !important;
+  }
+}
+
+/* Search Bar icon in New Tab */
+#urlbar-searchmode-switcher {
+  content: url("icons/search-glass.svg") !important;
+  background-color: transparent !important;
+  transform: scale(0.8) !important;
+}
+
+/* Close up gaps between icons and make them bigger */
+toolbar .toolbarbutton-1 {
+    --toolbarbutton-inner-padding: 5px !important;  /* Default seems to be 8px */
+ > .toolbarbutton-icon {
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 21px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 21px) !important;
+  }
+}
+
+/* Change Back icon */
+#back-button {
+  list-style-image: url("icons/back.svg") !important;
+  padding-right: 8px !important;
+}
+
+/* Change Forward icon */
+#forward-button {
+  list-style-image: url("icons/forward.svg") !important;
+}
+
+/* Change Reload and Stop icons */
+#stop-reload-button[animate] {
+  > #reload-button > .toolbarbutton-animatable-box > .toolbarbutton-animatable-image {
+    background-image: url("icons/reload.png") !important;
+    transform: none !important;
+  }
+  > #reload-button[displaystop] + #stop-button > .toolbarbutton-animatable-box > .toolbarbutton-animatable-image {
+    background-image: url("icons/reload.png") !important;
+    transform: none !important;
+  }
+}
+#reload-button {
+  list-style-image: url("icons/reload.png") !important;
+}
+#stop-button {
+  list-style-image: url("icons/stop.svg") !important;
+}
+
+/* Change Home icon */
+#home-button {
+  list-style-image: url("icons/home.png") !important;
+}
+
+/* Change Tracking Protection shield and make red when active */
+#tracking-protection-icon-box {
+  list-style-image: url(icons/shield.svg) !important;
+  scale: 1.1 !important;
+  fill: #73D216 !important;
+  &[active] {
+    fill: red !important; 
+  }
+}
+
+/* Change padlock icon */
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  list-style-image: url(icons/lock.svg) !important;
+  scale: 1.1 !important;
+}
+
+/* Change Tab Throbber */
+.tab-throbber::before {
+  width: 16px !important;
+  height: 16px !important;
+  background-size: contain;
+  animation: unset !important;
+  -moz-context-properties: unset !important;
+  fill: unset !important;
+  opacity: unset !important;
+  background-image: url("icons/tabthrobber.png") !important;
+}
+
+/* Colourise bookmark(ed) star */
+#star-button {
+  fill: goldenrod !important;
+  scale: 1.1 !important;
+}
+
+/* Change Extensions icon */
+#unified-extensions-button{
+  list-style-image: url("icons/extensions.svg") !important;
+}
+
+/* Change Settings icon */
+#preferences-button{
+  list-style-image: url("icons/settings.svg") !important;
+}
+
+/* Change folder icon on Bookmarks Bar */
+.bookmark-item {
+  &:is(toolbarbutton){
+    list-style-image: url("icons/folder.svg")!important;
+  }
+}
+
+
+
+/*
+.bookmark-item {
+  &[container] { 
+    --bookmark-item-icon: url("icons/folder.svg")!important;
+  }
+}
+
+
+
+
+ Larger Un-circled loudspeaker symbol — seems to be obsolete
+.tab-icon-overlay {
+  border: none !important;
+  background-color: transparent !important;
+  fill: black !important;
+  transform: scale(1.7) !important;
+}
+*/
+
