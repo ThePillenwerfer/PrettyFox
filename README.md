@@ -5,7 +5,7 @@
    
 I’ve made this repository chiefly as a personal back-up but if the contents can be used by or give inspiration to anybody else all well and good.
 
-As it is meant to make FireFox suit my tastes and use-patterns it will almost certainly need amending to suit anybody else’s. 
+As it is meant to make FireFox suit **my** tastes and use-patterns it will almost certainly need amending to suit anybody else’s so shouldn't be regarded as ready-to-use. 
 
 I use the [Activist — Balanced](https://addons.mozilla.org/en-GB/firefox/addon/activist-balanced_/) theme so Icons may not show very well against others.  Colours can be changed by opening the relevant .svg file in a text editor and changing the fill, ie if something is white and you want it black change `fill:#ffffff` to `fill:#000000`.
 
