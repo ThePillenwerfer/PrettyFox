@@ -162,25 +162,3 @@ toolbar .toolbarbutton-1 {
     list-style-image: url("icons/folder.svg")!important;
   }
 }
-
-
-
-/*
-.bookmark-item {
-  &[container] { 
-    --bookmark-item-icon: url("icons/folder.svg")!important;
-  }
-}
-
-
-
-
- Larger Un-circled loudspeaker symbol — seems to be obsolete
-.tab-icon-overlay {
-  border: none !important;
-  background-color: transparent !important;
-  fill: black !important;
-  transform: scale(1.7) !important;
-}
-*/
-
