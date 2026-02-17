@@ -4,8 +4,9 @@
     width: 1.5px !important;
   }
 
-/* Get rid of Picture-in-Picture icon in URL bar */
+/* Get rid of Picture-in-Picture and Reader Mode icons in URL bar */
   #picture-in-picture-button-icon,
+  #reader-mode-button-icon,
 
 /* Get rid of hamburger menu */
   #PanelUI-menu-button,
