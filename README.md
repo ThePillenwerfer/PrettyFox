@@ -11,6 +11,6 @@ Its main purpose is to use better icons than the default ones.  As well as not b
 
 A secondary function is to remove things I'll never click which makes the things I do use easier to find.  Besides that there are various miscellaneous tweaks.
 
-I use the [Activist — Balanced](https://addons.mozilla.org/en-GB/firefox/addon/activist-balanced_/) theme so Icons may not show very well against others.  Colours can be changed by opening the relevant .svg file in a text editor and changing the fill, ie if something is white and you want it black change `fill:#ffffff` to `fill:#000000`.
+I use the [Activist — Balanced](https://addons.mozilla.org/en-GB/firefox/addon/activist-balanced_/) theme so Icons may not show very well against others.  Colours can be changed by opening the relevant .svg file in a text editor and changing the fill, ie if something is white and you want it black change `fill:#ffffff` to `fill:#000000`.  FireFox will need restarting for such changes to take effect.
 
 As well as the usual `toolkit.legacyUserProfileCustomizations.stylesheets` needing to be set to **`true`** in `about:config` or `user.js` `svg.context-properties.content.enabled` needs to be **`true`** as well.
