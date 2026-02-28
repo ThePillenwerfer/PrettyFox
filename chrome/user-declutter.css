@@ -74,6 +74,7 @@
   #context-inspect,
   #context-inspect-a11y,
   #frame-sep,
+  #context-sep-setbackground,
   #contentAreaContextMenu > menuseparator:nth-child(92) /*This is a Separator*/
     {display: none !important;}
 
