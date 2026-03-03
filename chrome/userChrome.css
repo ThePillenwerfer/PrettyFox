@@ -1,5 +1,6 @@
 @import url("user-declutter.css");
 @import url("user-icons.css");
+@import url("user-sidebar.css");
 
 /* Increase font size and make Tabs and other buttons less rounded */
 :root {
@@ -36,4 +37,17 @@ menupopup, panel {
   }
 }
 
-
+/* Make stuff on top bar in Library bigger */
+#placesMenu {
+  scale: 1.2 !important;
+  padding-left: 40px !important;
+}
+@-moz-document url("chrome://browser/content/places/places.xhtml") {
+  #back-button {
+    scale: 1.4 !important;
+    padding: 0 15px !important;
+  }
+  #forward-button {
+    scale: 1.4 !important;
+    padding: 0 10px !important;
+  }
