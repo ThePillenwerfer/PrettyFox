@@ -1,5 +1,7 @@
 user_pref("browser.aboutConfig.showWarning", false);
+user_pref("browser.ai.control.default", "blocked");
 user_pref("browser.backspace_action", 0);
+user_pref("browser.download.dir", "/home/joe/Desktop");
 user_pref("browser.mailto.prompt.os", false);
 user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.newtabpage.activity-stream.weather.staticData.enabled", false);
