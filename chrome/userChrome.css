@@ -36,7 +36,8 @@ menupopup, panel {
   }
 }
 
-/* Make stuff on top bar in Library bigger */
+/* Sort out Library */
+/* Make stuff on top bar bigger */
 #placesMenu {
   scale: 1.2 !important;
   padding-left: 40px !important;
@@ -50,3 +51,8 @@ menupopup, panel {
     scale: 1.4 !important;
     padding: 0 10px !important;
   }
+}  
+/* Stop wasting space at bottom */
+#detailsPane {
+  min-height: 6em !important;
+}  

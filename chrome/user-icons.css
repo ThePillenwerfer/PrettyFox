@@ -61,13 +61,6 @@
   }
 }
 
-/* Search Bar icon in New Tab */
-#urlbar-searchmode-switcher {
-  content: url("icons/search-glass.svg") !important;
-  background-color: transparent !important;
-  transform: scale(0.8) !important;
-}
-
 /* Close up gaps between icons and make them bigger */
 toolbar .toolbarbutton-1 {
     --toolbarbutton-inner-padding: 5px !important;  /* Default seems to be 8px */
@@ -109,6 +102,13 @@ toolbar .toolbarbutton-1 {
 /* Change Home icon */
 #home-button {
   list-style-image: url("icons/home.png") !important;
+}
+
+/* Search Bar icon in New Tab */
+#urlbar-searchmode-switcher {
+  content: url("icons/search-glass.svg") !important;
+  background-color: transparent !important;
+  transform: scale(0.8) !important;
 }
 
 /* Change Tracking Protection shield and make red when active */
@@ -162,3 +162,16 @@ toolbar .toolbarbutton-1 {
     list-style-image: url("icons/folder.svg")!important;
   }
 }
+
+
+
+/*
+ Larger Un-circled loudspeaker symbol — seems to be obsolete
+.tab-icon-overlay {
+  border: none !important;
+  background-color: transparent !important;
+  fill: black !important;
+  transform: scale(1.7) !important;
+}
+*/
+
