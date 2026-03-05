@@ -4,15 +4,15 @@
 <svg
    version="1.1"
    id="svg2"
-   width="16"
-   height="14.029223"
-   viewBox="0 0 16 14.029224"
+   width="16.007627"
+   height="13.858763"
+   viewBox="0 0 16.007627 13.858763"
    xml:space="preserve"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs6" /><g
      id="g8"
-     transform="translate(-2.9300515,-0.25218953)"><path
-       style="fill:#00ff00;stroke:#00ff00;stroke-width:0.399002px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 3.1599466,5.3376729 3.1311227,9.448682 15.821656,8.0282489 10.915435,11.931536 12.545011,13.97434 18.658817,7.2792081 12.407913,0.55143146 10.895888,2.3087326 15.853165,6.4455649 Z"
-       id="path4785" /></g></svg>
+     transform="translate(-5.2596558,-4.4693757)"><path
+       style="fill:#00ff00;stroke:#00ff00;stroke-width:0.397529px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 5.5360652,13.530676 12.5037728,-1.33859 -4.878841,3.963065 1.66534,1.88361 c 0,0 6.466645,-6.415563 6.236012,-6.570509 -0.200522,-0.134718 -6.342518,-6.7003313 -6.342518,-6.7003313 0,0 -1.038853,1.2221887 -1.55777,1.833482 L 18.100446,10.562593 5.4625174,9.6593339 Z"
+       id="path522" /></g></svg>
