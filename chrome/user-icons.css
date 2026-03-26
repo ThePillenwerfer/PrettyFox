@@ -10,6 +10,9 @@
   #leftBox {
     background-image: url("icons/firefox.png") !important; 
   }
+  #rightBox {
+    background-image: url("icons/firefox-wordmark.svg") !important;
+  }
 }  
 
 /* Change logo in URL bar for about:config &c */
