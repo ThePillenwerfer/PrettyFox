@@ -1,6 +1,6 @@
 # PrettyFox
 
-<img width="1280" height="122" alt="Screenshot at 2026-02-17 03-26-23" src="https://github.com/user-attachments/assets/1e20117e-2a90-48a0-b3a4-4bbaa56bed40" />
+<img width="1280" height="122" alt="Screenshot at 2026-03-26 13-20-59" src="https://github.com/user-attachments/assets/9420b05c-2e82-44d6-a807-c28cc55fde6f" />
 &#160;
 
 I’ve made this repository chiefly as a personal back-up but if the contents can be used by or give inspiration to anybody else all well and good.
