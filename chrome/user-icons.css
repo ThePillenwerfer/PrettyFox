@@ -155,6 +155,24 @@ toolbar .toolbarbutton-1 {
   list-style-image: url("icons/extensions.svg") !important;
 }
 
+/* Change VPN icon and only show it to switch on in Private windows */
+&[privatebrowsingmode="temporary"] {
+  #ipprotection-button {
+    list-style-image: url("icons/vpn-off.svg") !important;
+    &.ipprotection-on {
+      list-style-image: url("icons/vpn-on.svg") !important;
+    }
+  }
+}
+&:not([privatebrowsingmode="temporary"]) {
+  #ipprotection-button {
+    list-style-image: url("icons/vpn-on.svg") !important;
+    &:not(.ipprotection-on) {
+      display: none !important;
+    }  
+  }
+}  
+
 /* Change Settings icon */
 #preferences-button{
   list-style-image: url("icons/settings.svg") !important;
