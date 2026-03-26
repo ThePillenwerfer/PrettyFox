@@ -37,6 +37,7 @@
 /* Get rid of crap on right-click Tab */
   #context_openANewTab,
   #context_moveTabToNewGroup,
+  #context_moveTabToSplitView,
   menuitem[label="Separate Split View"] + menuseparator,
   #context_reloadTab,
   #context_toggleMuteTab,

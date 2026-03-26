@@ -111,21 +111,22 @@ toolbar .toolbarbutton-1 {
   transform: scale(0.8) !important;
 }
 
-/* Change Tracking Protection shield and make red when active */
-#tracking-protection-icon-box {
-  list-style-image: url(icons/shield.svg) !important;
-  scale: 1.1 !important;
-  fill: #73D216 !important;
-  &[active] {
-    fill: red !important; 
+#trust-icon-container {
+  &:where(.insecure) {
+    list-style-image: url(icons/open-lock.svg) !important;
+    scale: 1.1 !important;
+    height: 24px !important;
+    color: red !important;
+    margin: 2px 10px 0px 8px !important;
+    padding: 0 1px 0 6px !important;
   }
-}
-
-/* Change padlock icon */
-#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
-#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
-  list-style-image: url(icons/lock.svg) !important;
-  scale: 1.1 !important;
+  &.warning {
+    color: red !important;
+  }
+  &.secure {
+    list-style-image: url(icons/lock.svg) !important;
+    scale: 1.1 !important;
+  }
 }
 
 /* Change Tab Throbber */
@@ -163,15 +164,21 @@ toolbar .toolbarbutton-1 {
   }
 }
 
+/* Change Tracking Protection shield and make red when active 
+#trust-icon-container {
+  list-style-image: url(icons/shield.svg) !important;
+  scale: 1.1 !important;
+  margin: 2px 1px !important;
+  fill: #73D216 !important;
+  &[active] {
+    fill: red !important; 
+  }
+}*/
 
-
-/*
- Larger Un-circled loudspeaker symbol — seems to be obsolete
-.tab-icon-overlay {
-  border: none !important;
-  background-color: transparent !important;
-  fill: black !important;
-  transform: scale(1.7) !important;
+/* Change padlock icon 
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  list-style-image: url(icons/lock.svg) !important;
+  scale: 1.1 !important;
 }
 */
-
