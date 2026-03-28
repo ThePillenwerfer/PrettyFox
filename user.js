@@ -1,6 +1,7 @@
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.ai.control.default", "blocked");
 user_pref("browser.backspace_action", 0);
+user_pref("browser.download.dir", "/home/joe/Desktop");
 user_pref("browser.mailto.prompt.os", false);
 user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.newtabpage.activity-stream.weather.staticData.enabled", false);
@@ -9,8 +10,8 @@ user_pref("browser.privatebrowsing.felt-privacy-v1",false);
 user_pref("browser.sessionstore.resume_from_crash",	false);	
 user_pref("browser.theme.toolbar-theme", 1);
 user_pref("browser.tabs.hoverPreview.enabled", false);
-user_pref("browser.toolbars.bookmarks.visibility", always);
-user_pref("browser.toolbars.bookmarks.showOtherBookmarks", true)
+user_pref("browser.toolbars.bookmarks.visibility", "always");
+user_pref("browser.toolbars.bookmarks.showOtherBookmarks", true);
 user_perf("layout.spellcheckDefault", 2);
 user_pref("network.protocol-handler.external.mailto", false);
 user_pref("sidebar.revamp",false);
