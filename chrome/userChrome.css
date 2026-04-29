@@ -7,6 +7,13 @@
   --border-radius-medium: 2px !important; 
 } 
 
+/* Fix SOME Tooltips showing white-on-black in FF150 */
+tooltip {
+  background-color: #F5F5B5 !important;
+  border-color: black !important;
+  color: black !important;
+}
+
 /* Reduce space between entries on pop-up menus */ 
 menupopup :is(menu, menuitem), .subviewbutton {
   padding: 2px !important;
