@@ -10,7 +10,7 @@
 /* Fix SOME Tooltips showing white-on-black in FF150 */
 tooltip {
   background-color: #F5F5B5 !important;
-  border-color: black !important;
+  border-color: #898966 !important;
   color: black !important;
 }
 
