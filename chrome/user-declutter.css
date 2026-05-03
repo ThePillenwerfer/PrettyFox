@@ -47,6 +47,8 @@
   #context_unloadTab,
   #context_duplicateTab,
   menuitem[label="Duplicate Tabs"] + menuseparator,  
+  #context_askChat,
+  menu[label="Ask an AI Chatbot"] + menuseparator,  
   #context_bookmarkTab,
   #context_moveTabOptions,
   #context_sendTabToDevice,
