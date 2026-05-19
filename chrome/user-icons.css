@@ -108,10 +108,10 @@ toolbar .toolbarbutton-1 {
 }
 
 /* Search Bar icon in New Tab */
-#urlbar-searchmode-switcher {
+.searchmode-switcher {
   content: url("icons/search-glass.svg") !important;
   background-color: transparent !important;
-  transform: scale(0.8) !important;
+  transform: scale(0.63) !important;
 }
 
 #trust-icon-container {
@@ -167,6 +167,10 @@ toolbar .toolbarbutton-1 {
 &:not([privatebrowsingmode="temporary"]) {
   #ipprotection-button {
     list-style-image: url("icons/vpn-on.svg") !important;
+    scale: 0.5 !important;
+    width: 35px !important;
+    height: 30px !important;
+    padding-top: 15px !important;
     &:not(.ipprotection-on) {
       display: none !important;
     }  

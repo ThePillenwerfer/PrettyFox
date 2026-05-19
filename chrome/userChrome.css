@@ -7,6 +7,23 @@
   --border-radius-medium: 2px !important; 
 } 
 
+/* Fix Log-In box colours */
+@-moz-document url("chrome://global/content/commonDialog.xhtml") {
+  .titleIcon,
+  #commonDialog {
+    background-color: #EDECEB !important;
+    color: black !important;
+  }
+  #loginTextbox,
+  #password1Textbox {
+    background-color: white !important;
+    color: black !important;
+  }
+  button {
+    color: black !important;
+  }
+}
+
 /* Fix SOME Tooltips showing white-on-black in FF150 */
 tooltip {
   background-color: #F5F5B5 !important;

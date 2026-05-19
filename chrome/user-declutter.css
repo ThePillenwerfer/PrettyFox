@@ -68,6 +68,7 @@
   #context-sep-screenshots,
 
 /* Get rid of crap on right-click Link */
+  menu[label="Open in New Container Tab"],
   #context-previewlink,
   #context-openlinkinusercontext-menu,
   #context-openlink,
