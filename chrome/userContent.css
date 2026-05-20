@@ -1,5 +1,8 @@
 /* Change the logo on the New Tab pages */
 @-moz-document url(about:newtab), url(about:home) { 
+  .logo-and-wordmark {
+    margin-top: -10% !important;
+  }
   .logo {
     background-size: 92px !important;
     height: 92px !important;
@@ -13,8 +16,13 @@
     width: 174px !important;
     margin-inline-start: 25px !important;
   }  
+  :root {
+    --border-radius-circle: 5px !important;
+  }
+  .nova-enabled .search-inner-wrapper {
+    min-width: 58vw;
+  }  
 }
-
   
 /* Change Icon and Wordmark on Private Window Home Page */
 @-moz-document url(about:privatebrowsing){
@@ -22,21 +30,21 @@
     background-color: #4E268E;
   }  
   .logo-and-wordmark {
-    margin: -140px 0 50px;
+    margin-top: -25% !important;
   }
   .logo {
-    background-size: 82px !important;
+    background-size: 92px !important;
     background-image: url("icons/firefox.png") !important;
   }
   .wordmark {
-    background-size: 162px !important;
+    background-size: 174px !important;
     background-image: url("icons/private-text.png") !important;
   }
-  .info-border {
+  :root {
+    --border-radius-circle: 5px !important;
+  }  
+  .info-border, info {
     display: none;
-  }
-  .info {
-      display:none;
   }
 }
 
@@ -46,3 +54,6 @@
     background: url("icons/dragon.png") no-repeat !important;
   }
 }
+
+
+/*.personalizeButtonWrapper {display: none !important;}*/
