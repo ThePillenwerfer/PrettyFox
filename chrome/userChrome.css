@@ -1,35 +1,15 @@
 @import url("user-declutter.css");
 @import url("user-icons.css");
 
+* {
+  color-scheme: light !important;
+}
+
 /* Increase font size and make Tabs and other buttons less rounded */
 :root {
   font-size: 13pt !important;
   --border-radius-medium: 2px !important; 
 } 
-
-/* Fix Log-In box colours */
-@-moz-document url("chrome://global/content/commonDialog.xhtml") {
-  .titleIcon,
-  #commonDialog {
-    background-color: #EDECEB !important;
-    color: black !important;
-  }
-  #loginTextbox,
-  #password1Textbox {
-    background-color: white !important;
-    color: black !important;
-  }
-  button {
-    color: black !important;
-  }
-}
-
-/* Fix SOME Tooltips showing white-on-black in FF150 */
-tooltip {
-  background-color: #F5F5B5 !important;
-  border-color: #898966 !important;
-  color: black !important;
-}
 
 /* Reduce space between entries on pop-up menus */ 
 menupopup :is(menu, menuitem), .subviewbutton {
