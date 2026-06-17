@@ -24,7 +24,8 @@
 
 /* Keep History icon in the centre of a square box */
 #history-panelmenu {
-  padding: 0 6px 0 8px !important;
+  padding: 0 2px 0 6px !important;
+  scale: 1.25 !important;
 }
 
 /* Make Close Tab button bigger and red */
@@ -67,9 +68,10 @@
 /* Close up gaps between icons and make them bigger */
 toolbar .toolbarbutton-1 {
     --toolbarbutton-inner-padding: 5px !important;  /* Default seems to be 8px */
+    --toolbarbutton-padding-outer: 0 !important;
  > .toolbarbutton-icon {
-    width: calc(2 * var(--toolbarbutton-inner-padding) + 21px) !important;
-    height: calc(2 * var(--toolbarbutton-inner-padding) + 21px) !important;
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 28px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 28px) !important;
   }
 }
 
@@ -159,6 +161,10 @@ toolbar .toolbarbutton-1 {
 &[privatebrowsingmode="temporary"] {
   #ipprotection-button {
     list-style-image: url("icons/vpn-off.svg") !important;
+/*    scale: 0.5!important;
+    height: 14px !important;
+    width: 40px !important;
+    padding-top: 28px !important; */
     &.ipprotection-on {
       list-style-image: url("icons/vpn-on.svg") !important;
     }
@@ -167,10 +173,10 @@ toolbar .toolbarbutton-1 {
 &:not([privatebrowsingmode="temporary"]) {
   #ipprotection-button {
     list-style-image: url("icons/vpn-on.svg") !important;
-    scale: 0.5 !important;
+/*    scale: 0.5 !important;
     width: 35px !important;
     height: 30px !important;
-    padding-top: 15px !important;
+    padding-top: 15px !important;*/
     &:not(.ipprotection-on) {
       display: none !important;
     }  

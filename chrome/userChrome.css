@@ -31,7 +31,7 @@ menupopup, panel {
   &[privatebrowsingmode="temporary"] {
     --lwt-accent-color: #55367C !important; /* Tab Bar background */
     --lwt-text-color: #ffffff !important; /* Stuff at right end of Tab Bar */
-    --toolbar-bgcolor: #714FA1 !important;  /* URL and Bookmarks Bars */
+    --toolbar-background-color: #714FA1 !important;  /* URL and Bookmarks Bars */
     --toolbar-field-background-color: #ffffff !important; /*URL box background */
     --toolbar-field-focus-border-color: #9A65E4 !important; /* Empty URL box border */
     --toolbar-color: #ffffff !important; /* Bookmark text */
