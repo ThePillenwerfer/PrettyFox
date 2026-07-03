@@ -25,7 +25,6 @@
 /* Keep History icon in the centre of a square box */
 #history-panelmenu {
   padding: 0 2px 0 6px !important;
-  scale: 1.25 !important;
 }
 
 /* Make Close Tab button bigger and red */
@@ -67,11 +66,21 @@
 
 /* Close up gaps between icons and make them bigger */
 toolbar .toolbarbutton-1 {
-    --toolbarbutton-inner-padding: 5px !important;  /* Default seems to be 8px */
-    --toolbarbutton-padding-outer: 0 !important;
- > .toolbarbutton-icon {
-    width: calc(2 * var(--toolbarbutton-inner-padding) + 28px) !important;
-    height: calc(2 * var(--toolbarbutton-inner-padding) + 28px) !important;
+  --toolbarbutton-inner-padding: 8px !important;  
+  --toolbarbutton-padding-outer: 4px !important;
+  > .toolbarbutton-icon,
+  > .toolbarbutton-text,
+  > .toolbarbutton-badge-stack {
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    padding: 4px !important;
+  }
+}  
+.unified-extensions-item-action-button {
+  > .toolbarbutton-badge-stack > .toolbarbutton-icon {
+    margin: 4px 0 0 4px !important;
+    height: 16px;
+    width: 16px;
   }
 }
 
