@@ -1,7 +1,8 @@
 /* Change the logo on the New Tab pages */
 @-moz-document url(about:newtab), url(about:home) { 
+  .logo-and-wordmark-wrapper,
   .logo-and-wordmark {
-    margin-top: -10% !important;
+    margin-top: -5% !important;
   }
   .logo {
     background-size: 92px !important;
@@ -29,8 +30,9 @@
   body {
     background-color: #4E268E;
   }  
+  .logo-and-wordmark-wrapper,
   .logo-and-wordmark {
-    margin-top: -25% !important;
+    margin-top: -24% !important;
   }
   .logo {
     background-size: 92px !important;
@@ -46,12 +48,29 @@
   .info-border, info {
     display: none;
   }
+  content-search-handoff-ui {
+  --content-search-handoff-ui-background-color: white !important;
+  --content-search-handoff-ui-color: black !important;
+  --content-search-handoff-ui-fill: black !important;
+  }  
 }
 
 /* Change icon on about:config page */
-@-moz-document url(about:config){
+@-moz-document url(about:config) {
   .config-background {
     background: url("icons/dragon.png") no-repeat !important;
+  }
+}
+
+/* Change icon on Settings page */
+@-moz-document url(about:preferences) {
+  .page-nav-heading-wrapper {
+    & > .logo {
+      height: 38px !important;
+      width: 38px !important;
+      background: url("icons/firefox.png") no-repeat center !important;
+      background-size: 36px !important;    
+    }
   }
 }
 
