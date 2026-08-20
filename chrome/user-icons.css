@@ -39,14 +39,16 @@
 /* Change window control icons */
 .titlebar-close {
   scale: 1.4;
-    > .toolbarbutton-icon {
+  > .toolbarbutton-icon {
     background-image: url("icons/close.svg") !important;
+    border-radius: var(--border-radius-medium) !important;
   }  
 }
 .titlebar-max {
   padding-top: 8px !important;  
   > .toolbarbutton-icon {
     background-image: url("icons/maximise.svg") !important;
+    border-radius: var(--border-radius-medium) !important;
   }
 }
 .titlebar-restore {
@@ -54,6 +56,7 @@
   scale: 1.2;
   > .toolbarbutton-icon {
     background-image: url("icons/restore.svg") !important;
+    border-radius: var(--border-radius-medium) !important;
   }
 }  
 .titlebar-min {
@@ -61,18 +64,19 @@
   padding-top: 14px !important;
   > .toolbarbutton-icon {
     background-image: url("icons/minimise.svg") !important;
+    border-radius: var(--border-radius-medium) !important;
   }
 }
 
 /* Close up gaps between icons and make them bigger */
 toolbar .toolbarbutton-1 {
   --toolbarbutton-inner-padding: 8px !important;  
-  --toolbarbutton-padding-outer: 4px !important;
+  --toolbarbutton-padding-outer: 2px !important;
   > .toolbarbutton-icon,
   > .toolbarbutton-text,
   > .toolbarbutton-badge-stack {
-    width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
-    height: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+    width: calc(2 * var(--toolbarbutton-inner-padding) + 14px) !important;
+    height: calc(2 * var(--toolbarbutton-inner-padding) + 14px) !important;
     padding: 4px !important;
   }
 }  
@@ -169,28 +173,46 @@ toolbar .toolbarbutton-1 {
 /* Change VPN icon and only show it to switch on in Private windows */
 &[privatebrowsingmode="temporary"] {
   #ipprotection-button {
-    list-style-image: url("icons/vpn-off.svg") !important;
-/*    scale: 0.5!important;
-    height: 14px !important;
-    width: 40px !important;
-    padding-top: 28px !important; */
-    &.ipprotection-on {
-      list-style-image: url("icons/vpn-on.svg") !important;
+    --size-image-small: 24px!important;
+    list-style-image: url("icons/vpn-off.svg")!important;
+    &:is([overflowedItem="true"], [cui-areatype="panel"]) {
+    list-style-image: url("icons/vpn-off.svg");
+      &.ipprotection-on {
+        list-style-image: url("icons/vpn-on.svg")!important;
+        fill: var(--icon-color-success);
+      }
+    }
+    &:not([overflowedItem="true"], [cui-areatype="panel"]) {
+      .ipprotection-icon-stack > .toolbarbutton-icon,
+      .ipprotection-icon-layer {
+        width: var(--size-image-small);
+      }
+    .ipprotection-icon-layer[data-state="on"] {
+      list-style-image: url("icons/vpn-on.svg")!important;
+      stroke: var(--icon-color-success);
+      }
     }
   }
 }
 &:not([privatebrowsingmode="temporary"]) {
   #ipprotection-button {
+    --size-image-small: 24px !important;
     list-style-image: url("icons/vpn-on.svg") !important;
-/*    scale: 0.5 !important;
-    width: 35px !important;
-    height: 30px !important;
-    padding-top: 15px !important;*/
-    &:not(.ipprotection-on) {
-      display: none !important;
-    }  
+      &:not([overflowedItem="true"], [cui-areatype="panel"]) {
+      .ipprotection-icon-stack > .toolbarbutton-icon,
+      .ipprotection-icon-layer {
+         width: var(--size-image-small);
+      }
+      .ipprotection-icon-layer[data-state="on"] {
+        list-style-image: url("icons/vpn-on.svg")!important;
+        stroke: var(--icon-color-success);
+      }
+      &:not(.ipprotection-on) {
+        display: none !important;
+      }  
+    }
   }
-}  
+}
 
 /* Change Settings icon */
 #preferences-button{
@@ -222,3 +244,22 @@ toolbar .toolbarbutton-1 {
   scale: 1.1 !important;
 }
 */
+/* Change VPN icon and only show it to switch on in Private windows 
+&[privatebrowsingmode="temporary"] {
+  #ipprotection-button {
+    --size-image-small: 24px!important;
+    list-style-image: url("icons/vpn-off.svg") !important;
+     &.ipprotection-on {
+       list-style-image: url("icons/vpn-on.svg") !important;
+    }
+  }
+}
+&:not([privatebrowsingmode="temporary"]) {
+  #ipprotection-button {
+    --size-image-small: 24px !important;
+    list-style-image: url("icons/vpn-on.svg") !important;
+    &:not(.ipprotection-on) {
+      display: none !important;
+    }  
+  }
+}  */
