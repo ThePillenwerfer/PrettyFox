@@ -1,3 +1,4 @@
+
 /* Change the logo on the New Tab pages */
 @-moz-document url(about:newtab), url(about:home) { 
   .logo-and-wordmark-wrapper,
@@ -23,8 +24,18 @@
   .nova-enabled .search-inner-wrapper {
     min-width: 58vw;
   }  
+  .button-background {
+    &.labelled {
+      background: #7B9DEA !important;
+      /*
+      background:  transparent !important;
+      border-color: black !important;
+      color: black !important;
+      */
+  }
+}  
+
 }
-  
 /* Change Icon and Wordmark on Private Window Home Page */
 @-moz-document url(about:privatebrowsing){
   body {
@@ -76,3 +87,5 @@
 
 
 /*.personalizeButtonWrapper {display: none !important;}*/
+
+
