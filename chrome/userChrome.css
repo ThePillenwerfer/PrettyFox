@@ -21,6 +21,14 @@ menupopup, panel {
 }
 
 /* Move Find bar to top of screen */
+.browserContainer {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.browserContainer > .browserStack {
+  order: 2 !important;
+  flex: 1 1 auto !important;
+}
 .browserContainer > findbar {
   order: -1 !important;
   border-top: none !important; 

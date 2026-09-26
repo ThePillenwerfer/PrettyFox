@@ -26,14 +26,11 @@
   }  
   .button-background {
     &.labelled {
-      background: #7B9DEA !important;
-      /*
       background:  transparent !important;
-      border-color: black !important;
+      border-color: #886CE2 !important;
       color: black !important;
-      */
-  }
-}  
+    }
+  }  
 
 }
 /* Change Icon and Wordmark on Private Window Home Page */
