@@ -5,6 +5,7 @@ user_pref("browser.mailto.prompt.os", false);
 user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.newtabpage.activity-stream.weather.staticData.enabled", false);
 user_pref("browser.newtabpage.activity-stream.weather.temperatureUnits", "f");
+user_pref("browser.nova.enabled",	false);
 user_pref("browser.privatebrowsing.felt-privacy-v1",false);
 user_pref("browser.sessionstore.resume_from_crash",	false);	
 user_pref("browser.theme.toolbar-theme", 1);
